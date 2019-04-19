@@ -1,0 +1,30 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wss.module.main">
+
+    <application>
+
+
+        <activity
+            android:name=".ui.loading.LoadingActivity"
+            android:theme="@style/Theme.AppStartLoadTranslucent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.hortab.OrderListActivity" />
+        <activity android:name=".ui.refresh.RefreshStringActivity" />
+        <activity android:name=".ui.selector.SelectorActivity" />
+        <activity android:name=".ui.page.CountViewActivity" />
+        <activity android:name=".ui.page.MultipleItemActivity" />
+        <activity android:name=".ui.page.ObserverButtonActivity" />
+        <activity android:name=".ui.page.DialogActivity" />
+        <activity android:name=".ui.page.FlowLayoutActivity" />
+        <activity android:name=".ui.im.IMActivity" />
+        <activity android:name=".ui.im.IMUserInfoActivity" />
+        <activity android:name=".ui.main.MainActivity" />
+        <activity android:name=".ui.page.ScaleImageActivity" />
+    </application>
+</manifest>

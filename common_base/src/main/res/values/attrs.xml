@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--水平滑动Tab自定义属性-->
+    <declare-styleable name="PullToRefreshLayout">
+        <attr name="view_error" format="reference" />
+        <attr name="view_empty" format="reference" />
+        <attr name="view_loading" format="reference" />
+    </declare-styleable>
+
+    <!--下拉 上拉刷新控件-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <!--下方 指示线条器颜色-->
+        <attr name="pstsIndicatorColor" format="color" />
+        <!--下方 横线颜色-->
+        <attr name="pstsUnderlineColor" format="color" />
+        <!--水平方向分割线颜色-->
+        <attr name="pstsDividerColor" format="color" />
+        <!--标题默认颜色-->
+        <attr name="pstsTextDefaultColor" format="color" />
+        <!--标题选中颜色-->
+        <attr name="pstsTextSelectedColor" format="color" />
+        <!--字体大小-->
+        <attr name="pstsTextSize" format="dimension" />
+        <!--是否加粗-->
+        <attr name="pstsBold" format="boolean" />
+        <!--是否显示顶部横线-->
+        <attr name="pstsHasTopLine" format="boolean" />
+        <!--是否显示底部横线-->
+        <attr name="pstsHasBottomLine" format="boolean" />
+
+        <attr name="pstsDividerPadding" format="dimension" />
+        <!--指示器高度-->
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPaddingTopBottom" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <!--所有文字是否转大写-->
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsScaleZoomMax" format="float" />
+        <!--滑动是是否平滑滚动-->
+        <attr name="pstsSmoothScrollWhenClickTab" format="boolean" />
+    </declare-styleable>
+
+    <!--自定义加载框-->
+    <declare-styleable name="LVCircularRing">
+        <attr name="bgColor" format="color" />
+        <attr name="barColor" format="color" />
+    </declare-styleable>
+
+    <!--横向多功能View封装-->
+    <declare-styleable name="MultipleItemView">
+        <attr name="leftTextColor" format="color" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightIcon" format="reference" />
+        <attr name="leftText" format="string" />
+        <attr name="rightText" format="string" />
+        <attr name="showTopLine" format="boolean" />
+        <attr name="showBottomLine" format="boolean" />
+        <attr name="showLeftIcon" format="boolean" />
+        <attr name="showRightIcon" format="boolean" />
+        <attr name="showEdtText" format="boolean" />
+    </declare-styleable>
+
+    <!--观察者按钮-->
+    <declare-styleable name="ObserverButton">
+        <!--默认背景-->
+        <attr name="defaultBgColor" format="color|reference" />
+        <attr name="defaultBgResource" format="color|reference" />
+        <!--可以点击的背景-->
+        <attr name="pressBgColor" format="color|reference" />
+        <attr name="pressBgResource" format="color|reference" />
+        <!--默认字体颜色-->
+        <attr name="defaultTextColor" format="color" />
+        <!--可以点击的字体颜色-->
+        <attr name="pressTextColor" format="color" />
+    </declare-styleable>
+
+    <!--流式布局-->
+    <declare-styleable name="FlowLayout">
+        <attr name="max_select" format="integer" />
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SlideLayout">
+        <attr name="percent" format="float" />
+        <attr name="duration" format="integer" />
+        <attr name="default_panel" format="enum">
+            <enum name="front" value="0" />
+            <enum name="behind" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
